@@ -1,43 +1,54 @@
-/* The design for navigation bar design */
-
-header
-{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 0px 30px;
     background-color: #f9cee7;
 }
 
-.navLogo
-{
-    width: 80px;
+.navLogo {
+    width: 40px;
     height: inherit;
     cursor: pointer;
 }
 
-nav ul
-{
+nav {
     display: flex;
+    flex: 1;
     justify-content: center;
-    flex-grow: 1;
     text-align: center;
+    padding: 0px 80px;
+}
+nav ul {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    list-style: none; /* remove default list style */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
 }
 
-nav ul li
-{
-    display: inline-block;
-    padding: 0px 50px;
-    font-size: 32px;
+nav ul li {
+    flex: 1; /* set each li element to take up equal space */
+    font-size: 40px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 700;
+    padding: 3px 10px;
+    transition: 0.3s cubic-bezier(0.15, 0.1, 0.15, 1);
 }
 
-header a button
-{
-    font-size: 35px;
+nav ul li:hover {
+    background-color: white;
+    color: #eea1cd;
+}
+
+header a button {
+    font-size: 30px;
+    font-weight: 600;
     border-radius: 8%;
-    padding: 10px;
+    padding: 4px;
+    margin: 4px 30px;
     background-color: #eea1cd;
     color: white;
     border-style: hidden;
@@ -45,8 +56,7 @@ header a button
     cursor: pointer;
 }
 
-
-header a button:hover
-{
+header a button:hover {
     background-color: #e68bbe;
 }
+  
