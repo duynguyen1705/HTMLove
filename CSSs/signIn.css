@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
 
     /* Set the background image */
-    background-image: url(../assets/images/straw_background.jpg);
+    background-image: url(https://wallpapers.com/images/featured-full/strawberry-desktop-background-mlnfwdx8dayv5zct.jpg);
 
     /* Set full màn hình */
     background-size: cover;
@@ -26,7 +26,7 @@ body {
 
 /* phần chung của cả 2 box */
 .box {
-    background-color: rgba(238, 161, 205, 0.901);
+    background-color: rgba(251,209,199, 0.8);
     display: flex;
     justify-content: center;
     padding: 3%;
@@ -99,7 +99,7 @@ body {
     /* tạo margin */
     margin: 5% 0%;
     /* màu nền */
-    background-color: rgba(235, 101, 177, 0.81);
+    background-color: rgba(253, 114, 79, 0.81);
 
     /* ẩn border và bo cái góc lại */
     border-style: hidden;
@@ -121,5 +121,36 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
+}
+
+.alterSignIn
+{
+    /* marign & heading */
+    padding: 2% 0%;
+    margin: 3% 0%;
+    width: 95%;
+    /* border & box color */
+    border-radius: 20px;
+    border-style: hidden;
+    background-color: rgba(256, 256, 256, 0.877);
+
+    /* text color and width */
+    font-size: 20px;
+    font-weight: 500;
+
+    /* text align */
+    text-align: center;
+
+}
+.icon
+{
+    color: rgba(253, 114, 79, 0.81);
+    margin-right: 2%;
+}
+.alterSignIn a
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
