@@ -11,25 +11,21 @@
 <body>
     <!-- sign in form -->
     <div class="box signIn">
-        <!-- header -->
-        <div class="header">Sign in</div>
-        <!-- phần form -->
-        <form class="contentForm">
-            <label for="user_name" class="subHeader">Username</label><br>
-            <input type="text" name="user_name" id="uName"><br>
-            <label for="password" class="subHeader">Password</label><br>
-            <input type="text" name="password" id="pass"><br>
-            <input type="submit" class="submitButton" value="Sign in"><br>
-            <a href="#" class="toOther">Forgot your password? Click here</a>
-        </form>
-        <!-- sign in bằng các method khác -->
-        <div class="otherOption">Or sign in with: </div>
-        <div class="iconTray">
-            <img src="../assets/images/faceIcon.png" alt="Facebook" class="icon">
-            <img src="../assets/images/goggle.png" alt="" class="icon">
+        <div class="signPoster">
+            <!-- phần này sẽ des 1 ảnh ngang nhét vào -->
         </div>
-        <!-- tạo thêm tài khoản mới -->
-        <a href="#" class="toOther">Create new account here</a>
+        <div class="signInForm">
+            <div class="header">Sign in</div>
+            <div class="toOther">Don't have an account yet? <a href="#">Sign up</a></div>
+            <form action="">
+                <input type="text" name="userName" id="user" placeholder="Username or email"><br>
+                <input type="text" name="passWord" id="pass" placeholder="Password"><br>
+                <input type="submit" value="Log in"><br>
+            </form>
+            <div class="otherOption">Or</div>
+            <div class="alterSignIn">Sign in with Goggle</div>  
+            <div class="alterSignIn">Sign in with Facebook</div>
+        </div>
     </div>
 </body>
 </html> 
